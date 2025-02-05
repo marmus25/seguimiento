@@ -1,59 +1,39 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-/* Menú de Navegación */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    background-color: #333;
-}
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="music.html">Música</a></li>
+            <li><a href="about.html">Sobre Mí</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
 
-nav ul li {
-    display: inline;
-    padding: 15px;
-}
+    <header>
+        <h1>Contacto</h1>
+    </header>
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-}
+    <section>
+        <h2>Envíame un mensaje</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
-/* Encabezado */
-header {
-    background: url('../images/background.jpg') center/cover;
-    color: white;
-    padding: 50px 0;
-}
+    <footer>
+        <p>&copy; 2025 Mi Sitio de Música | Todos los derechos reservados</p>
+    </footer>
 
-/* Sección */
-section {
-    margin: 20px;
-}
-
-/* Formulario de Contacto */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 50%;
-    margin: auto;
-}
-
-input, textarea, button {
-    padding: 10px;
-    font-size: 16px;
-}
-
-/* Pie de Página */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    margin-top: 20px;
-}
+</body>
+</html>
